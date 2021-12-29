@@ -12,8 +12,8 @@ namespace Sorting
                 double root = 0;
 
                 root = -E / D;
-                //Console.WriteLine(" **********Basic Root********** ");
-                //Console.WriteLine("Root1: " + root);
+                Console.WriteLine(" **********Basic Root********** ");
+                Console.WriteLine("Root1: " + root);
             }
 
             public static Complex[] ComputeQuadraticRoot(double C, double D, double E)
@@ -41,8 +41,8 @@ namespace Sorting
                     quadratic_roots[0] = root1;
                     quadratic_roots[1] = root2;
 
-                    //Console.WriteLine("Root 1: " + root1);
-                    //Console.WriteLine("Root 2: " + root2);
+                    Console.WriteLine("Root 1: " + root1);
+                    Console.WriteLine("Root 2: " + root2);
                 }
 
                 else if (equation == 0)
@@ -53,8 +53,8 @@ namespace Sorting
                     quadratic_roots[0] = root1;
                     quadratic_roots[1] = root2;
 
-                    //Console.WriteLine("Root 1: " + root1);
-                    //Console.WriteLine("Root 2: " + root2);
+                    Console.WriteLine("Root 1: " + root1);
+                    Console.WriteLine("Root 2: " + root2);
                 }
 
                 else
@@ -74,11 +74,11 @@ namespace Sorting
                     quadratic_roots[0] = root11;
                     quadratic_roots[1] = root12;
                     //Console.WriteLine("********İmag Roots*************");
-                    //Console.WriteLine("Root 1: " + root11);
-                    //Console.WriteLine("Root 1: " + root12);
+                    Console.WriteLine("Root 1: " + root11);
+                    Console.WriteLine("Root 1: " + root12);
                 }
-            Console.WriteLine("Roots1: " + quadratic_roots[0]);
-            Console.WriteLine("Roots2: " + quadratic_roots[1]);
+            //Console.WriteLine("Roots1: " + quadratic_roots[0]);
+            //Console.WriteLine("Roots2: " + quadratic_roots[1]);
             return quadratic_roots;
 
 
